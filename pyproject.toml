@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "omdena"
+version = "0.1.0"
+description = ""
+authors = ["Vignesh <vicky1997mj@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+transformers = "^4.27.4"
+datasets = "^2.11.0"
+huggingface-hub = "^0.13.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
